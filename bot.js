@@ -29,7 +29,7 @@ client.on("message", message =>{
 if(message.content.startsWith('!ahri')){
     const embedahri = new Discord.RichEmbed()
 .setTitle('Aqui está a runa para Ahri da Season 8!')
-.setImage('https://i.imgur.com/lElY8nzg.png')
+.setImage('https://uploaddeimagens.com.br/imagens/ahri-png-67f0ca07-14e7-4ebd-ad0d-d8298cc9a02a')
 message.channel.send(embedahri)
 }
 
