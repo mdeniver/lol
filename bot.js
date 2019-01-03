@@ -26,7 +26,7 @@ client.on("message", message =>{
       message.channel.send("Aqui está a runa para Aatrox da Season 8!", {files: ["./imagens/aatrox.png"]});
 }
 
-if(message.content.startsWith('ahri')){
+if(message.content.startsWith('!ahri')){
     const embedahri = new Discord.RichEmbed()
 .setTitle('Aqui está a runa para Ahri da Season 8!')
 .setImage('https://i.imgur.com/lElY8nzg.png')
