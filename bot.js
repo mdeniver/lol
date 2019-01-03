@@ -23,11 +23,14 @@ client.on("message", message =>{
      message.channel.send("ESCOLHA UM CAMPEÃO E DIGITE O NOME DELE(A) Ex: !aatrox :                                                                                                                  1- Aatrox 2- Ahri 3- Akali 4- Alistar 5- Amumu 6- Anivia 7- Annie 8- Ashe 9- Aurelion Sol 10- Azir 11- Bardo 12- Blitzcrank 13- Brand 14- Braum 15- Caitlyn 16- Camille 17- Cassiopeia 18- Cho'Gath 19- Corki 20- Darius 21- Diana 22- Dr. Mundo 23- Draven 24- Ekko 25- Elise 26- Evelynn 27- Ezreal 28- Fiddlesticks 29- Fiora 30- Fizz 31- Galio 32- Gangplank 33- Garen 34- Gnar 35- Gragas 36- Graves 37- Hecarim 38- Heimerdinger 39- Illaoi 40- Irelia 41- Ivern 42- Janna 43- Jarvan IV 44- Jax 45- Jayce 46- Jhin 47- Jinx 48- Kai'Sa 49- Kalista 50- Karma 51- Karthus 52- Kassadin 53- Katarina 54- Kayle 55- Kayn 56- Kennen 57- Kha'Zix 58- Kindred 59- Kled 60- Kog'Maw 61- LeBlanc 62- Lee Sin 63- Leona 64- Lissandra 65- Lucian 66- Lulu 67- Lux 68- Malphite 69- Malzahar 70- Maokai 71- Master Yi 72- Miss Fortune 73- Mordekaiser 74- Morgana 75- Nami 76- Nasus 77- Nautilus 78- Neeko 79- Nidalee 80- Nocturne 81- Nunu e Willump 82- Olaf 83- Orianna 84- Ornn 85- Pantheon 86- Poppy 87- Pyke 88- Quinn 89- Rakan 90- Rammus 91- Rek'Sai 92- Renekton 93- Rengar 94- Riven 95- Rumble 96- Ryze 97- Sejuani 98- Shaco 99- Shen 100- Shyvana 101- Singed 102- Sion 103- Sivir 104- Skarner 105- Sona 106- Soraka 107- Swain 108- Syndra 109- Tahm Kench 110- Taliyah 111- Talon 112- Taric 113- Teemo 114- Thresh 115- Tristana 116- Trundle 117- Tryndamere 118- Twisted Fate 119- Twitch 120- Udyr 121- Urgot 122- Varus 123- Vayne 124- Veigar 125- Vel'Koz 126- Vi 127- Viktor 128- Vladimir 129- Volibear 130- Warwick 131- Wukong 132- Xayah 133- Xerath 134- Xin Zhao 135- Yasuo 136- Yorick 137- Zac 138- Zed 139- Ziggs 140- Zilean 141- Zoe 142- Zyra");
 }
     if(message.content.startsWith('!aatrox')){ 
-      message.channel.send("Aqui está a runa para Aatrox da Season 8!", {files: ["mdeniver/lol/imagens/aatrox.png"]});
+      message.channel.send("Aqui está a runa para Aatrox da Season 8!", {files: ["./imagens/aatrox.png"]});
 }
 
-if(message.content.startsWith('!ahri')){ 
-    message.channel.send("Aqui está a runa para Ahri da Season 8!", {files: ["./imagens/ahri.png"]});
+if(message.content.startsWith('ahri')){
+    const embedahri = new Discord.RichEmbed()
+.setTitle('Aqui está a runa para Ahri da Season 8!')
+.setImage('https://i.imgur.com/lElY8nzg.png')
+message.channel.send(embedahri)
 }
 
 if(message.content.startsWith('!akali')){ 
